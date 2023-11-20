@@ -13,7 +13,6 @@
     border-bottom: 1px solid #e7e9fc;
 }
     
-
 .menu{
     display: flex;
     gap:40 px;
@@ -26,7 +25,37 @@
     padding: 0 15px;
 }
 
+.navigation-portfolio{
+    display: flex;
+}
 
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.list-navigation-portfolio{
+    display: flex;
+    align-items: center;
+}
+
+.menu-navigation-portfolio{
+    display: flex;
+    gap: 40px;
+}
+
+.section-portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.list-section-portfolio{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
 .link-menu{ 
     color: var(--text-color);
     font-family: Roboto, sans-serif;
@@ -251,6 +280,7 @@ width: calc((100% - 48px) / 3);
 
 .footer{
     background-color: var(--backgroud-color);
+    padding: 100px 0;
 }
 
 .logo-footer{
@@ -262,7 +292,10 @@ width: calc((100% - 48px) / 3);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 1.17 
+    line-height: 1.17;
+    display: inline-block;
+    margin-bottom: 16px;
+    max-width: 264px;
 }
 
 .logo-part-two-footer{
@@ -290,11 +323,26 @@ width: calc((100% - 48px) / 3);
     line-height: 1.5;
     letter-spacing: 0.04em; 
     cursor: pointer;  
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
 }
 
 .button-portfolio:hover, .button-portfolio:focus{
-color: #FFFFFF;
-background-color: #404BBF;    
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.list-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.list-portfolio-two{
+width: calc((100% - 48px) / 3);
 }
 
 .sub-list > li{
@@ -330,3 +378,12 @@ background-color: #404BBF;
     display: block;
 }
 
+.container-portfolio{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.h-two-portfolio{
+    margin-bottom: 8px;
+}
