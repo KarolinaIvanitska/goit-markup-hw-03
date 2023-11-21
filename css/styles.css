@@ -22,6 +22,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: var(--body-color);
+    letter-spacing: 0.02;
 }
 
 img {
@@ -304,6 +305,9 @@ img {
 
 .navigation-portfolio{
     display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .list-navigation-portfolio {
