@@ -33,6 +33,12 @@ img {
     box-sizing: border-box;
 }
 
+h1,h2,h3,h4,p {
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+
 /* header*/
 
 .main-header{
@@ -42,6 +48,7 @@ img {
 .navigation{
     display: flex;
     width: 1158px;
+    height: 72px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -154,6 +161,21 @@ img {
 
 .strenghts{
 
+}
+
+.section-two-main-page{
+    padding: 120px 0;
+}
+
+.header-three{
+    color: var(--text-color);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .section-two {
