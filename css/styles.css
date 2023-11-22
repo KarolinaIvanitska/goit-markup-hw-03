@@ -38,6 +38,11 @@ h1,h2,h3,h4,p {
     margin-bottom: 0;
 }
 
+.visually-hidden{
+    display:none;
+}
+  
+
 
 /* header*/
 
@@ -96,6 +101,11 @@ h1,h2,h3,h4,p {
     font-style: normal;
     display: flex;
     gap: 40px;
+}
+
+.list-nav-portfolio{
+    gap: 40px;
+    display: flex;
 }
 
 .contact {
@@ -159,9 +169,6 @@ h1,h2,h3,h4,p {
 
 /*section 2*/
 
-.strenghts{
-
-}
 
 .section-two-main-page{
     padding: 120px 0;
@@ -254,8 +261,8 @@ h1,h2,h3,h4,p {
 
 .section-four-li {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .name-job {
@@ -367,7 +374,7 @@ h1,h2,h3,h4,p {
 
 /*ul-first*/
 
-.section-portfolio{
+.section{
     padding-top: 96px;
     padding-bottom: 120px;
 }
