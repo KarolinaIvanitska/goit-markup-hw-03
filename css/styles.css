@@ -333,8 +333,6 @@ ol, ul{
     letter-spacing: 0.02em;
 }
 
-
-
 /*portfolio page*/
 
 /*header portfolio*/
@@ -357,6 +355,11 @@ ol, ul{
 /*+logo-part-two*/
 
 .menu-navigation-portfolio {
+    display: flex;
+    gap: 40px;
+}
+
+.item-link-menu {
     display: flex;
     gap: 40px;
 }
