@@ -29,6 +29,10 @@ img {
     display: block;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 /* header*/
 
 .main-header{
