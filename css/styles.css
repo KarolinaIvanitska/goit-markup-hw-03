@@ -221,7 +221,6 @@ ol, ul{
 }
 
 .section-two {
-    padding: 120px 0;
     display: flex;
     gap: 24px;
 }
@@ -280,7 +279,6 @@ ol, ul{
 .text-our-team {
     color: var(--text-color);
     text-align: center;
-    font-family: Robotom, sens-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
